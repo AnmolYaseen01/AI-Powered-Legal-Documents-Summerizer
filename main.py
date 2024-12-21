@@ -22,7 +22,7 @@ device = "cuda" if torch.cuda.is_available() else "cpu"
 
 # Login to Hugging Face Hub
 try:
-    hf_token = "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"  # Replace with your Hugging Face token
+    hf_token = "Your_hf_token_here"  # Replace with your Hugging Face token
     login(hf_token)
     # Validate token
     api = HfApi()
